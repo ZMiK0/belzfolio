@@ -22,6 +22,12 @@ a {
     gap: 100px;
 }
 
+.aboutme0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
 .aboutme {
     justify-content: center;
     align-items: center;
@@ -33,6 +39,34 @@ a {
     border-radius: 50%;
     width: 10%;
     box-shadow: 0px 0px 10px 1px white;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    fill: white;
+    -webkit-transform: scale(1, 1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1, 1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+
+.link:hover {
+    fill: #1cff27;
+    -webkit-transform: scale(1.05) perspective(1px);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05, 1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+
+.link svg {
+    width: 40px;
 }
 
 .info {
