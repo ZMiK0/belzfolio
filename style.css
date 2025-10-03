@@ -109,6 +109,7 @@ a {
 .projects {
     display: flex;
     flex-direction: column;
+    gap: 0px;
     width: 100%;
 }
 
@@ -116,8 +117,6 @@ a {
     background-color: rgb(46, 46, 46);
     border: 2px white solid;
     border-radius: 5px;
-    border-left: none;
-    border-top: none;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -131,8 +130,6 @@ a {
 
 .projectsBox:hover {
     border: 2px #1cff27 solid;
-    border-left: none;
-    border-top: none;
     -webkit-transform: scale(1.05) perspective(1px);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-duration: 250ms;
@@ -167,5 +164,40 @@ a {
 }
 
 .learningProjects {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.learningProjectsRow {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.learningProjectsBox {
+    width: auto;
+    background-color: rgb(46, 46, 46);
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    -webkit-transform: scale(1, 1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1, 1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+
+.learningProjectsBox:hover {
+    border: 2px #1cff27 solid;
+    -webkit-transform: scale(1.05) perspective(1px);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05, 1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
 }
